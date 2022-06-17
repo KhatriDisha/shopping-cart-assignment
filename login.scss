@@ -1,0 +1,111 @@
+// navbar
+nav {
+    div {
+        &.check {
+            display: flex;
+            position: relative;
+            .nav-items-1{
+                display: flex;
+                flex: 1;
+                padding-top: 50px;
+                li {
+                    list-style: none;
+                    padding: 0 15px;
+                    a {
+                        color: black;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-decoration: none;  
+                    }
+                }
+            }
+            .nav-items-2 {
+                li {
+                    list-style: none;
+                    padding: 0 15px;
+                    a {
+                        color: black;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .nav-items-right {
+                float: right;
+                display: flex;
+            }
+            .cart-box {
+                width: 10%;
+                padding: 15px;
+                background-color: rgb(215, 213, 213);
+                color: black;
+                margin-top: 50px;
+                position: absolute;
+                margin-left: 86%;
+                text-align: center;
+                font-size: 13px;
+                .cart-resize {
+                    color: red;
+                    width: 20px;
+                    margin-top: -17px;
+                }
+            }
+        }
+
+        
+    }
+}
+
+div {
+    &.check {
+        display: flex;
+        position: relative;
+        .category-section{
+            flex: auto;
+            margin-top: 30px;
+            margin-left: 110px;
+        }
+        .form-appearence {
+            display: grid;
+            width: 40%;
+            margin-right: 150px;
+            margin-top: 30px;
+            label {
+                line-height: 26px;
+                margin-bottom: 10px;
+                color: rgb(69, 181, 246);
+                .password {
+                    margin-top: 20px;
+                }
+            }
+            input {
+                height: 20px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-color: rgb(69, 181, 246);
+                outline: none;
+            
+            }
+            button {
+                margin-top: 35px;
+                height: 40px;
+                background-color: palevioletred;
+                color: white;
+                border: none;
+            }
+        }
+    }
+}
+
+footer {
+    &.box {
+        padding: 10px;
+        background-color: rgb(249, 243, 243);
+        color: black;
+        margin-top: 2%;
+        padding-left: 75px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="check">
+            <img src="static/images/logo.png" alt="Home Page" />
+            <ul class="nav-items-1">
+                <li><a href="/">Home</a></li>
+                <li><a href="products.html">Product</a></li>
+            </ul>
+            <ul class="nav-items-2 nav-items-right">
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            <div class="cart cart-box">
+                <img src="/static/images/cart.svg" alt="cart" class="cart-resize">0 Items</img>
+            </div>
+        </div>
+    </nav>
+    <!-- corousal -->
+     <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="static/images/offers/offer1.jpg" alt="slideshow-offer1" height="auto" width="100%">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="static/images/offers/offer2.jpg" alt="slidesow-offer2" height="auto" width="100%">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="static/images/offers/offer3.jpg" alt="slideshow-offer3" height="auto" width="100%">
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!-- categories-fruits-and-veg -->
+    <div class="check">
+        <img src="static/images/category/fruits.png" alt="fruits-and-vegetables" class="category-section-images"/>
+        <div class="category-section">
+            <h3>Fruits and Vegetables</h3>
+            <p>A variety of fresh fruits and vegetables</p>
+            <div class="box">Explore Fruits and Veg</div>
+        </div>
+    </div>
+    <hr class="line-ending"> 
+    <!-- categories-bakery -->
+    <div class="check">
+        <div class="category-section">
+            <h3>Bakery Cakes and Dairy</h3>
+            <p>The best cupcakes, cookies, cakes , pies, cheesecakes, fresh break, biscuits, muffines, fresh coffee, milk and more.</p>
+            <div class="box">Explore Bakery, cakes, dairy</div>
+        </div>
+        <img src="static/images/category/bakery.png" alt="bakery-cakes-dairy" class="category-section-images"/>
+    </div>
+    <hr class="line-ending">
+    <!-- categories-beverages -->
+    <div class="check">
+        <img src="static/images/category/beverages.png" alt="beverages" class="category-section-images"/>
+        <div class="category-section">
+            <h3>Beverages</h3>
+            <p>A variety of fresh fruits and vegetables</p>
+            <div class="box">Explore Beverages</div>
+        </div>
+    </div>
+    <hr class="line-ending">
+    <!-- categories-beauty -->
+    <div class="check">
+        <div class="category-section">
+            <h3>Beauty and Hygine</h3>
+            <p>The best cupcakes, cookies, cakes , pies, cheesecakes, fresh break, biscuits, muffines, fresh coffee, milk and more.</p>
+            <div class="box">Explore Beauty and Hygine</div>
+        </div>
+        <div><img src="static/images/category/beauty.png" alt="beauty-and-hygine" class="category-section-images"/></div>
+    </div>
+    <hr class="line-ending">
+    <!-- categories-baby -->
+    <div class="check">
+        <img src="static/images/category/baby.png" alt="baby-care" class="category-section-images"/>
+        <div class="category-section">
+            <h3>Baby Care</h3>
+            <p>A variety of fresh fruits and vegetables</p>
+            <div class="box">Explore Baby Care</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -6,4 +6,4 @@ This is the base folder for the shopping cart exercise. You will have all the st
 
 Since it is completely created using HTML, CSS/SCSS, Javascript, so to see the website:-
 
-open live server from index.html page
+open live server from index.html page, and click on Products, Sign In, Register , Home links to see page view for each.
